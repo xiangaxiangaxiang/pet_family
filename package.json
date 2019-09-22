@@ -1,0 +1,31 @@
+{
+  "name": "pet_family_fe",
+  "version": "1.0.0",
+  "description": "pet_family前端代码",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
+    "dist": "set WEBPACK_ENV=online && wenpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:pet_family/pet_family_fe.git"
+  },
+  "author": "chen",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			<%= htmlWebpackPlugin.options.title%> - 宠物you家宠物交易网</title>
+		<%= require('html-loader!./layout/head-common.html') %>
+	</head>
+
+	<body>
+		<%= require('html-loader!./layout/nav.html') %>
+		<%= require('html-loader!./layout/header.html') %>
+		<div class="w">
+			<ul class="keywords-list">
+				<li class="keywords-item">
+					<a href="./list.html?keyword=大型犬" class="link">大型犬</a>
+					<a href="./list.html?keyword=阿拉斯加" class="link">阿拉斯加</a>
+					<a href="./list.html?keyword=金毛" class="link">金毛</a>
+					<a href="./list.html?keyword=德牧" class="link">德牧</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=中型犬" class="link">中型犬</a>
+					<a href="./list.html?keyword=哈士奇" class="link">哈士奇</a>
+					<a href="./list.html?keyword=边境牧羊犬" class="link">边境牧羊犬</a>
+					<a href="./list.html?keyword=萨摩耶" class="link">萨摩耶</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=小型犬" class="link">小型犬</a>
+					<a href="./list.html?keyword=贵宾" class="link">贵宾</a>
+					<a href="./list.html?keyword=柴犬" class="link">柴犬</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=喵咪" class="link">喵咪</a>
+					<a href="./list.html?keyword=布偶" class="link">布偶</a>
+					<a href="./list.html?keyword=波斯猫" class="link">波斯猫</a>
+					<a href="./list.html?keyword=森林猫" class="link">森林猫</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=小老许" class="link">小老许</a>
+					<a href="./list.html?keyword=仓鼠" class="link">仓鼠</a>
+					<a href="./list.html?keyword=豚鼠" class="link">豚鼠</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=小兔子" class="link">小兔子</a>
+					<a href="./list.html?keyword=安哥拉兔" class="link">安哥拉兔</a>
+					<a href="./list.html?keyword=波兰兔" class="link">波兰兔</a>
+					<a href="./list.html?keyword=垂耳兔" class="link">垂耳兔</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=喵咪" class="link">小鸟</a>
+					<a href="./list.html?keyword=金丝雀" class="link">金丝雀</a>
+					<a href="./list.html?keyword=虎皮鹦鹉" class="link">虎皮鹦鹉</a>
+					<a href="./list.html?keyword=百灵" class="link">百灵</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=水族" class="link">水族</a>
+					<a href="./list.html?keyword=巴西龟" class="link">巴西龟</a>
+					<a href="./list.html?keyword=宝莲灯鱼" class="link">宝莲灯鱼</a>
+					<a href="./list.html?keyword=孔雀鱼" class="link">孔雀鱼</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=宠物玩具" class="link">宠物玩具</a>
+					<a href="./list.html?keyword=宠物粮食" class="link">宠物粮食</a>
+					<a href="./list.html?keyword=宠物小屋" class="link">宠物小屋</a>
+				</li>
+				<li class="keywords-item">
+					<a href="./list.html?keyword=宠物药品" class="link">宠物药品</a>
+					<a href="./list.html?keyword=清洁用品" class="link">清洁用品</a>
+				</li>
+			</ul>
+			<div class="banner-con">
+				<div class="loading">
+
+				</div>
+			</div>
+		</div>
+		<div class="w">
+			<div class="floor-wrap">
+				<h1 class="floor-title">狗狗商城</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100006" class="link">
+							<span class="floor-text">阿拉斯加</span>
+							<img class="floor-img" src="<%= require('../image/floor/dog1.jpg')%>" alt="阿拉斯加"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100007" class="link">
+							<span class="floor-text">边境牧羊犬</span>
+							<img class="floor-img" src="<%= require('../image/floor/dog2.jpg')%>" alt="边境牧羊犬"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100008" class="link">
+							<span class="floor-text">拉布拉多</span>
+							<img class="floor-img" src="<%= require('../image/floor/dog3.jpg')%>" alt="拉布拉多"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100009" class="link">
+							<span class="floor-text">金毛</span>
+							<img class="floor-img" src="<%= require('../image/floor/dog4.jpg')%>" alt="金毛"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100010" class="link">
+							<span class="floor-text">哈士奇</span>
+							<img class="floor-img" src="<%= require('../image/floor/dog5.jpg')%>" alt="哈士奇"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">喵咪商城</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100011" class="link">
+							<span class="floor-text">波斯猫</span>
+							<img class="floor-img" src="<%= require('../image/floor/cat1.jpg')%>" alt="波斯猫"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100012" class="link">
+							<span class="floor-text">布偶猫</span>
+							<img class="floor-img" src="<%= require('../image/floor/cat2.jpg')%>" alt="布偶猫"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100013" class="link">
+							<span class="floor-text">茶杯猫</span>
+							<img class="floor-img" src="<%= require('../image/floor/cat3.jpg')%>" alt="茶杯猫"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100014" class="link">
+							<span class="floor-text">挪威森林猫</span>
+							<img class="floor-img" src="<%= require('../image/floor/cat4.jpg')%>" alt="挪威森林猫"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100015" class="link">
+							<span class="floor-text">苏格兰折耳猫</span>
+							<img class="floor-img" src="<%= require('../image/floor/cat5.jpg')%>" alt="苏格兰折耳猫"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">小宠商城</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100016" class="link">
+							<span class="floor-text">安哥拉兔</span>
+							<img class="floor-img" src="<%= require('../image/floor/small1.jpg')%>" alt="安哥拉兔"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100017" class="link">
+							<span class="floor-text">仓鼠</span>
+							<img class="floor-img" src="<%= require('../image/floor/small2.jpg')%>" alt="仓鼠"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100018" class="link">
+							<span class="floor-text">法国垂耳兔</span>
+							<img class="floor-img" src="<%= require('../image/floor/small3.jpg')%>" alt="法国垂耳兔"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100019" class="link">
+							<span class="floor-text">虎皮鹦鹉</span>
+							<img class="floor-img" src="<%= require('../image/floor/small4.jpg')%>" alt="虎皮鹦鹉"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100020" class="link">
+							<span class="floor-text">豚鼠</span>
+							<img class="floor-img" src="<%= require('../image/floor/small5.jpg')%>" alt="豚鼠"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="floor-wrap">
+				<h1 class="floor-title">水族商城</h1>
+				<ul class="floor-list">
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100021" class="link">
+							<span class="floor-text">宝莲灯鱼</span>
+							<img class="floor-img" src="<%= require('../image/floor/fish1.jpg')%>" alt="宝莲灯鱼"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100022" class="link">
+							<span class="floor-text">草金鱼</span>
+							<img class="floor-img" src="<%= require('../image/floor/fish2.jpg')%>" alt="草金鱼"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100023" class="link">
+							<span class="floor-text">金钱龟</span>
+							<img class="floor-img" src="<%= require('../image/floor/fish3.jpg')%>" alt="金钱龟"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100024" class="link">
+							<span class="floor-text">孔雀鱼</span>
+							<img class="floor-img" src="<%= require('../image/floor/fish4.jpg')%>" alt="孔雀鱼"/>
+						</a>
+					</li>
+					<li class="floor-item">
+						<a href="./list.html?categoryId=100025" class="link">
+							<span class="floor-text">美人鱼</span>
+							<img class="floor-img" src="<%= require('../image/floor/fish5.jpg')%>" alt="美人鱼"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<%= require('html-loader!./layout/footer.html') %>
+	</body>
+
+</html>

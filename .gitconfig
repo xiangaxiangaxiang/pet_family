@@ -1,0 +1,12 @@
+[user]
+	name = chen
+	email = 2408926619@qq.com
+[alias]
+	co=checkout
+	ci=commit
+	st=status
+	pl=pull
+	ps=push
+	dt=difftool
+	ca=commit -am
+	b=branch
